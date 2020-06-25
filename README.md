@@ -3,8 +3,13 @@
 ##Założenia:
 - aplikacja będzie czytać dane z pliku;
 - aplikacja oczekuje zwalidowanych danych (nie waliduje pliku wejściowego);
-- aplikacja oczekuje danych uporzdkowanych danych (jak w przykładzie)wejściowych w formacie: 
-- aplikacja oczekuje danych wejściowych w formacie: 
+- aplikacja oczekuje uporzdkowanych danych (jak w przykładzie). Oznacza to, że:
+
+zawsze wystąpi pierwsza linia - z iloscią danych;
+
+pierwsza wartość w linii danych bedzie zawsze mniejsza od drugiej;
+
+grafy beda uporzadkowane jeden po drugim;
 
 ```
 3
