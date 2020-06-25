@@ -26,11 +26,13 @@ public class Manager {
                     if(current_1st_value > graphs_status[1])
                     {
                         graphs_status[0] += 1; // GRAPH COUNT ++
-
-                        //graphs_status[1] = current_2nd_value;
                     }
                     // NEW MAX IS EACH TIME TAKEN FROM 2ND VERTEX (2ND IS ALWAYS GREATER THEN 1ST ) ASSUMPTION
-                    graphs_status[1] = current_2nd_value;
+                    // THERE IS POSSIBILITY THAT current_2nd_value < MAX
+                    if (graphs_status[1] < current_2nd_value)
+                    {
+                        graphs_status[1] = current_2nd_value;
+                    }
                 });
 
         System.out.println(graphs_status[0]);
