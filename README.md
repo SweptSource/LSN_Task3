@@ -9,8 +9,6 @@ zawsze wystąpi pierwsza linia - z iloscią danych;
 
 pierwsza wartość w linii danych bedzie zawsze mniejsza od drugiej;
 
-grafy beda uporzadkowane jeden po drugim;
-
 ```
 3
 1 2
